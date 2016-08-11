@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>Contact</h2>
+        <section class="contact">
+            <p>
+                {{ message }}
+            </p>
+            <form>
+                <textarea ng-model="msg"></textarea>
+            </form>
+            <p>
+                <em>Ecrire un message : </em> 
+                <blockquote>
+                    {{ msg }}
+                </blockquote>
+            </p>
+        </section>
+    </body>
+</html>
